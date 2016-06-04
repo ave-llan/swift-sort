@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftSort_Example' do
+  pod 'SwiftSort', :path => '../'
+
+  target 'SwiftSort_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
