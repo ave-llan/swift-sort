@@ -1,0 +1,16 @@
+PODS:
+  - SwiftSort (0.1.0)
+
+DEPENDENCIES:
+  - SwiftSort (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftSort:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftSort: e0997aab585d5d52d597ac0f6c8a538edcbb994a
+
+PODFILE CHECKSUM: ff12e091dc0fb2000cb657d3a44bea9c4140765c
+
+COCOAPODS: 1.0.1
