@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		14F569B1CF520C961529D644E7D55FBC /* Pods-SwiftSort_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C34E918855A08614229B64772A2F7EA0 /* Pods-SwiftSort_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A97851A844EE1E915D2A7B5AC45DD0C /* SwiftSort-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C30675E267AD8F1CD1F2ABEC5CAB9B /* SwiftSort-dummy.m */; };
 		3DD51A3305D2C8BD35874718711E8D75 /* Pods-SwiftSort_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF46DDAD3AE62BDC4F6C5F0E38C71C2C /* Pods-SwiftSort_Tests-dummy.m */; };
 		484A3B304ED8256AA45AA4EFF300F284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		4D69E44399B1125BBA1BC5CD9BB99154 /* Pods-SwiftSort_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFDF5C9584EB0DC2170B3A7156948DCE /* Pods-SwiftSort_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		687CE4AB304B5BA2BABA3BBFECF5A703 /* SwiftSort-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D3BA2F8414A51DDA3AC1AF72AFB1C6 /* SwiftSort-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7253DEE86C7E11B019D62AC80862CFBD /* Pods-SwiftSort_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02FEE7B2961C36D42D27EF513C728F /* Pods-SwiftSort_Example-dummy.m */; };
 		90CB81B6978A9A61252699187F5DF2C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B61D03C00B7366B6929C0F57381946F7 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025282356684822892B9D0F42D332E57 /* InsertionSort.swift */; };
+		937B3AC49C0427B3F17FB0A38708F7C9 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F464F42740E62CD39D4F9651862DA1 /* InsertionSort.swift */; };
+		B65D3825327FDA6CE1839A034DE9F1E0 /* SwiftSort-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C30675E267AD8F1CD1F2ABEC5CAB9B /* SwiftSort-dummy.m */; };
 		C905CEE103315E1115EDEA405B917947 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E8158AEB279DBBD878F212DAE0829F0F /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B9436CB2920EF9938B7C6CBBB7BC99 /* MergeSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		025282356684822892B9D0F42D332E57 /* InsertionSort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		01F464F42740E62CD39D4F9651862DA1 /* InsertionSort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		06B55A77CA35D73D549DFE4FD9F5F8DC /* Pods-SwiftSort_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftSort_Tests.modulemap"; sourceTree = "<group>"; };
 		07B62566BC4226AF08DBBC07C89DF755 /* SwiftSort-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSort-prefix.pch"; sourceTree = "<group>"; };
 		11344E0C6C801C31D57E6340DEC6FF5F /* Pods-SwiftSort_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftSort_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		C86C399F62938A42F37DD5708DD9BA1F /* Pods-SwiftSort_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftSort_Example.modulemap"; sourceTree = "<group>"; };
 		CDC12B572D8F2848457F7F0325A80E5B /* Pods-SwiftSort_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSort_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7B9436CB2920EF9938B7C6CBBB7BC99 /* MergeSort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		DFDF5C9584EB0DC2170B3A7156948DCE /* Pods-SwiftSort_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftSort_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E0C30675E267AD8F1CD1F2ABEC5CAB9B /* SwiftSort-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSort-dummy.m"; sourceTree = "<group>"; };
 		E36838292A7CABECE113CF74C3E39D47 /* SwiftSort.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftSort.modulemap; sourceTree = "<group>"; };
@@ -92,12 +94,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FA787A127AD0D443690F47A4399D50A /* SwiftSort */ = {
+			isa = PBXGroup;
+			children = (
+				3F431876EB5605128D5687C4FC9A7FE7 /* Classes */,
+			);
+			path = SwiftSort;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		3F431876EB5605128D5687C4FC9A7FE7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01F464F42740E62CD39D4F9651862DA1 /* InsertionSort.swift */,
+				D7B9436CB2920EF9938B7C6CBBB7BC99 /* MergeSort.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		6CF967263E16883648F93E134E658B86 /* Products */ = {
@@ -165,14 +184,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C05A8A08A4809AD126C8125BF1F865D2 /* SwiftSort */ = {
-			isa = PBXGroup;
-			children = (
-				CFB58DD8ABBEADC874BDD3BC25D52CDB /* Classes */,
-			);
-			path = SwiftSort;
-			sourceTree = "<group>";
-		};
 		C0A9DCDE67DF57D6580976E8396B9649 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,14 +191,6 @@
 				6D0B6098BAA70D3F2B664B6CFE8B2FA4 /* Pods-SwiftSort_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CFB58DD8ABBEADC874BDD3BC25D52CDB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				025282356684822892B9D0F42D332E57 /* InsertionSort.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		DE05C47DE02672901D2B4D177285BF05 /* Development Pods */ = {
@@ -202,7 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				FAEBB603552EE2D7F1CD16B02E8D9E2F /* Support Files */,
-				C05A8A08A4809AD126C8125BF1F865D2 /* SwiftSort */,
+				0FA787A127AD0D443690F47A4399D50A /* SwiftSort */,
 			);
 			name = SwiftSort;
 			path = ../..;
@@ -256,7 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD6AA2A0D6AEA5D4A3602B8E31AD188D /* Build configuration list for PBXNativeTarget "SwiftSort" */;
 			buildPhases = (
-				8C0C9AB0C04AAE4A12EFF4DA327F836B /* Sources */,
+				BF278CEFBA9828CF314ED4F44C4BE3AD /* Sources */,
 				2F92979766E988671EF5154C34A4E7B7 /* Frameworks */,
 				A37303FF6866CD13F266A24A83BCE147 /* Headers */,
 			);
@@ -349,12 +352,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C0C9AB0C04AAE4A12EFF4DA327F836B /* Sources */ = {
+		BF278CEFBA9828CF314ED4F44C4BE3AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B61D03C00B7366B6929C0F57381946F7 /* InsertionSort.swift in Sources */,
-				1A97851A844EE1E915D2A7B5AC45DD0C /* SwiftSort-dummy.m in Sources */,
+				937B3AC49C0427B3F17FB0A38708F7C9 /* InsertionSort.swift in Sources */,
+				E8158AEB279DBBD878F212DAE0829F0F /* MergeSort.swift in Sources */,
+				B65D3825327FDA6CE1839A034DE9F1E0 /* SwiftSort-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,9 +13,10 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    let a = [0, 3, 21, 1, 4]
     
-    var a = [0, 3, 21, 1, 4].insertionSort { $0 < $1 }
-    print(a)
+    print("insertion sort: \(a.insertionSort { $0 < $1 })")
+    print("merge sort: \(a.mergeSort { $0 < $1 })")
     
   }
   
